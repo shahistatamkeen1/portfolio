@@ -955,11 +955,12 @@ html {
 .section-subtitle {
   opacity: 0.7;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
 
@@ -2331,6 +2332,10 @@ img {
   }
 
   /* Project, Education, Publication Cards */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
   .project-card,
   .education-card,
   .publication-card,
