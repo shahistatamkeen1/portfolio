@@ -40,7 +40,7 @@ counters.forEach(counter => {
 });
 
 // Typewriter Effect
-const text = "IT & Data Analytics Graduate Student";
+const text = "AI Application Developer & Full Stack Developer";
 const typingElement = document.getElementById("typing-text");
 
 let index = 0;
