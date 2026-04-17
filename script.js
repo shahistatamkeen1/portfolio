@@ -153,13 +153,59 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const linkedinPosts = [
   {
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7450734175370010624/?originTrackingId=FCIAmQ%2BtpNPt4YPkwtZp5g%3D%3D",
+    title: "Built an AI-Powered Construction Workflow System using Microsoft Power Platform",
+    age: "14h",
+    subtitle: "Graduate Assistant @ Elmhurst University",
+    preview: "A Power Apps-based workflow system for construction RFIs with approvals, status tracking, filtering, and dashboard history.",
+    thumbnail: "images/RFI.png",
+    reactions: "154",
+    comments: "0 comments",
+    reposts: "0 reposts"
+  },
+  {
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7449887531082592258/?originTrackingId=%2BMP9zdFQD7f0JuPD9ghyPA%3D%3D",
+    title: "Last Friday’s visit to the LinkedIn office with ALPFA was truly a memorable experience.",
+    age: "2d",
+    subtitle: "Graduate Assistant @ Elmhurst University",
+    preview: "A memorable visit filled with conversations, learning, and networking.",
+    thumbnail: "images/linkedin-office.jpg",
+    reactions: "691",
+    comments: "1 comment",
+    reposts: "0 reposts"
+  },
+  
+  {
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7448539918576029696/?originTrackingId=LUB3GRwtn4U2bkRCp%2FzptA%3D%3D",
+    title: "Just deployed my end-to-end Machine Learning project!",
+    age: "3d",
+    subtitle: "Graduate Assistant @ Elmhurst University",
+    preview: "Built and deployed a complete ML workflow with dashboard and prediction flow.",
+    thumbnail: "images/patient.png",
+    reactions: "409",
+    comments: "0 comments",
+    reposts: "0 reposts"
+  },
+  {
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7437883585413419008/?originTrackingId=azOxqZ5im2eqc0TxBea5dA%3D%3D",
+    title: "Just launched my personal developer portfolio website",
+    age: "1mo",
+    subtitle: "Graduate Assistant @ Elmhurst University",
+    preview: "A portfolio website showcasing projects, technical skills, and professional journey.",
+    thumbnail: "images/portfolio.png",
+    reactions: "878",
+    comments: "0 comments",
+    reposts: "0 reposts"
+  },
+
+  {
     url: "https://www.linkedin.com/feed/update/urn:li:activity:7436818114949885953/",
     title: "An inspiring experience at the Google Office Tour!",
     age: "2d",
     subtitle: "Graduate Assistant @ Elmhurst University",
     preview: "On March 6th, I had the opportunity to explore, learn, and connect with incredible professionals.",
     thumbnail: "images/7.jpeg",
-    reactions: "33",
+    reactions: "1910",
     comments: "2 comments",
     reposts: "1 repost"
   },
@@ -170,7 +216,7 @@ const linkedinPosts = [
     subtitle: "Graduate Assistant @ Elmhurst University",
     preview: "Career fair highlights and networking moments that can lead to meaningful opportunities in tech.",
     thumbnail: "images/1.jpeg",
-    reactions: "16",
+    reactions: "1237",
     comments: "0 comments",
     reposts: "0 reposts"
   },
@@ -181,10 +227,11 @@ const linkedinPosts = [
     subtitle: "Graduate Assistant @ Elmhurst University",
     preview: "A small webcoding build with interactive UI and playful animations.",
     thumbnail: "images/3.png",
-    reactions: "0",
+    reactions: "620",
     comments: "0 comments",
     reposts: "0 reposts"
   },
+
   {
     url: "https://www.linkedin.com/feed/update/urn:li:activity:7343363461403348994/",
     title: "Data Analysis with Python Certification",
@@ -192,7 +239,7 @@ const linkedinPosts = [
     subtitle: "Graduate Assistant @ Elmhurst University",
     preview: "I am happy to share that I obtained a new certification in Data Analysis with Python from IBM.",
     thumbnail: "certifications/ibm.jpg",
-    reactions: "0",
+    reactions: "908",
     comments: "0 comments",
     reposts: "0 reposts"
   },
@@ -203,7 +250,7 @@ const linkedinPosts = [
     subtitle: "Graduate Assistant @ Elmhurst University",
     preview: "Thrilled to have earned the Java certification and continue strengthening core programming foundations.",
     thumbnail: "certifications/java.jpg",
-    reactions: "0",
+    reactions: "1112",
     comments: "0 comments",
     reposts: "0 reposts"
   },
@@ -214,7 +261,7 @@ const linkedinPosts = [
     subtitle: "Graduate Assistant @ Elmhurst University",
     preview: "Proud to share a published research contribution and the learning journey behind this milestone.",
     thumbnail: "certifications/ijrpr.jpg",
-    reactions: "0",
+    reactions: "499",
     comments: "0 comments",
     reposts: "0 reposts"
   }
