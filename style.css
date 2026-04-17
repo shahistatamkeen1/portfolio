@@ -1027,6 +1027,129 @@ img {
   line-height: 1.6;
 }
 
+/* IMAGE WRAPPER */
+.project-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+/* IMAGE */
+.project-image {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s ease;
+}
+
+/* DARK OVERLAY (Netflix feel) */
+.project-image-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  transition: 0.3s ease;
+  pointer-events: none;   /* important */
+  z-index: 1;
+}
+
+/* PLAY BUTTON */
+.open-video-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #00d4ff, #4db8ff);
+  color: #000;
+  font-size: 22px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(0,212,255,0.6);
+  transition: 0.3s ease;
+  z-index: 2;             /* important */
+}
+
+/* 🔥 HOVER EFFECT */
+.project-image-wrapper:hover .project-image {
+  transform: scale(1.08);
+}
+
+.project-image-wrapper:hover::after {
+  opacity: 1;
+}
+
+.project-image-wrapper:hover .open-video-modal {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* BUTTON HOVER */
+.open-video-modal:hover {
+  background: #fff;
+  color: #00d4ff;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.video-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.video-modal.show {
+  display: flex;
+}
+
+.video-modal-content {
+  width: min(1000px, 92%);
+  position: relative;
+  animation: zoomIn 0.3s ease;
+}
+
+.video-modal-content video {
+  width: 100%;
+  max-height: 85vh;
+  border-radius: 14px;
+  background: #000;
+  display: block;
+}
+
+.close-video-modal {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.3s ease;
+}
+
+.close-video-modal:hover {
+  background: #ff4d4d;
+  transform: scale(1.08);
+}
+
 .tech-stack {
   margin-top: 15px;
 }

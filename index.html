@@ -511,6 +511,7 @@ I focus on building <strong>scalable, secure, and high-performance solutions</st
 
 </section>
 
+
 <section id="projects" class="projects-section">
 
   <h2 class="section-title">🚀 Projects</h2>
@@ -531,9 +532,7 @@ I focus on building <strong>scalable, secure, and high-performance solutions</st
         <h3>🔐 AI Powered Cloud Monitoring & Security Platform</h3>
 
         <p>
-          Developing an AI-driven capstone platform for real-time cloud monitoring,
-          anomaly detection, security visibility, and proactive alerting across
-          modern infrastructure environments.
+AI-powered cloud monitoring and security platform built on Microsoft Azure, delivering real-time system metrics, anomaly detection, and intelligent alerting. Integrates FastAPI services, secure multi-tier infrastructure, and OpenAI-based analysis to provide actionable insights and improve system reliability.
         </p>
 
         <div class="tech-stack">
@@ -583,35 +582,38 @@ I focus on building <strong>scalable, secure, and high-performance solutions</st
       </div>
     </div>
 
-    <!-- ================= RFI Constrcution Project ================= -->
+    <!-- ================= RFI Construction Project ================= -->
+<div class="project-card glow-box">
 
-    <div class="project-card glow-box">
+<div class="project-image-wrapper">
+  <img src="images/RFI.png" class="project-image" alt="Construction RFI Management App">
 
-  <img src="images/RFI.png" alt="Construction Workflow Automation System" class="project-image">
+<button class="open-video-modal" data-video="./videos/rfi-demo.mp4" type="button">
+  <i class="fas fa-play"></i>
+</button>
+</div>
 
   <div class="project-content">
+    <span class="project-status">COMPLETED</span>
 
-    <!--==span class="project-status">COMPLETED</span==-->
-
-    <h3>Construction Workflow Automation System</h3>
+    <h3>🏗️ Construction RFI Management App</h3>
 
     <p>
-      An AI-powered construction workflow management system built on Microsoft Power Platform. 
-      Enables site workers to submit and track RFIs across assigned projects, with automated 
-      approval routing to project managers, AI-assisted priority classification, and real-time 
-      status tracking — eliminating manual follow-ups and paper-based processes.
+      A Power Apps–based application designed to streamline the management of RFIs
+      (Requests for Information) in construction projects. It enables users to submit RFIs,
+      allows admins to approve or reject requests with comments, and provides real-time
+      status tracking along with advanced filtering and a complete history dashboard.
+      Built using Microsoft Power Platform (Power Apps, Power Automate, Dataverse) to
+      replace manual processes and improve team efficiency.
     </p>
 
     <div class="tech-stack">
       <span>Power Apps</span>
       <span>Power Automate</span>
       <span>Dataverse</span>
-      <span>AI Builder</span>
-      <span>Copilot Studio</span>
+      <span>Microsoft Power Platform</span>
+      <span>Workflow Automation</span>
     </div>
-
-    <!-- KEY STATS -->
-    
 
   </div>
 
@@ -639,14 +641,15 @@ I focus on building <strong>scalable, secure, and high-performance solutions</st
           <span>Visualization</span>
         </div>
 
-        <div class="project-buttons">
-          <a href="https://github.com/shahistatamkeen1/patient-readmission-dashboard.git" target="_blank" class="btn secondary">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-          <a href="https://patient-readmission-dashboard.streamlit.app/" target="_blank" class="btn secondary">
-            <i class="fas fa-external-link-alt"></i> Live Demo
-          </a>
-        </div>
+<div class="project-buttons">
+  <a href="https://github.com/shahistatamkeen1/Banking-Customer-Risk-Loan-Analysis.git" target="_blank" class="btn secondary">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+
+  <a href="https://loan-risk-dashboard.streamlit.app" target="_blank" class="btn secondary">
+    <i class="fas fa-external-link-alt"></i> Live Demo
+  </a>
+</div>
       </div>
     </div>
 
@@ -1267,9 +1270,15 @@ I focus on building <strong>scalable, secure, and high-performance solutions</st
   <img class="modal-content" id="modalImage">
 </div>
 
+<!-- ================= Video Modal Viewer ================= -->
+<div id="videoModal" class="video-modal">
+  <div class="video-modal-content">
+    <span class="close-video-modal">&#10005;</span>
+    <video id="videoPlayer" controls playsinline preload="metadata"></video>
+  </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="script.js"></script>
 
 </body>
 </html>
-

@@ -486,12 +486,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const videoModal = document.getElementById("videoModal");
+  const videoPlayer = document.getElementById("videoPlayer");
+  const closeVideoBtn = document.querySelector(".close-video-modal");
 
+  document.querySelectorAll(".open-video-modal").forEach(button => {
+    button.addEventListener("click", function () {
+      const videoSrc = this.dataset.video;
+      if (!videoSrc || !videoPlayer || !videoModal) return;
 
+      videoPlayer.pause();
+      videoPlayer.currentTime = 0;
+      videoPlayer.src = videoSrc;
+      videoPlayer.load();
 
+      videoModal.classList.add("show");
+      document.body.classList.add("modal-active");
+    });
+  });
 
+  function closeVideoModal() {
+    videoModal.classList.remove("show");
+    document.body.classList.remove("modal-active");
+    videoPlayer.pause();
+    videoPlayer.currentTime = 0;
+    videoPlayer.removeAttribute("src");
+    videoPlayer.load();
+  }
 
+  if (closeVideoBtn) {
+    closeVideoBtn.addEventListener("click", closeVideoModal);
+  }
 
-
-
-
+  window.addEventListener("click", function (e) {
+    if (e.target === videoModal) {
+      closeVideoModal();
+    }
+  });
+});
