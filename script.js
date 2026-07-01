@@ -40,17 +40,45 @@ counters.forEach(counter => {
 });
 
 // Typewriter Effect
-const text = "AI Application Developer & Full Stack Developer";
+const texts = [
+  "Machine Learning Engineer",
+  "Generative AI Engineer",
+  "Building LLM & RAG Applications",
+  "Agentic AI & Multi-Agent Systems",
+  "Building Intelligent Systems with AI & Cloud"
+];
+
 const typingElement = document.getElementById("typing-text");
 
-let index = 0;
+let textIndex = 0;
+let charIndex = 0;
 
 function typeEffect() {
-    if (index < text.length) {
-        typingElement.innerHTML += text.charAt(index);
-        index++;
-        setTimeout(typeEffect, 60);
-    }
+
+  if (charIndex < texts[textIndex].length) {
+
+    typingElement.innerHTML += texts[textIndex].charAt(charIndex);
+
+    charIndex++;
+
+    setTimeout(typeEffect, 60);
+
+  } else {
+
+    setTimeout(() => {
+
+      typingElement.innerHTML = "";
+
+      charIndex = 0;
+
+      textIndex = (textIndex + 1) % texts.length;
+
+      typeEffect();
+
+    }, 2000);
+
+  }
+
 }
 
 typeEffect();
