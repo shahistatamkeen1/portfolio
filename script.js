@@ -4,7 +4,7 @@ const linkedinPosts = [
     title: "A little girl with big dreams completed her Master’s degree",
     date: "May 2026",
     category: "Milestone · Women in Tech",
-    preview: "I shared the journey from India to earning my Master’s in Computer Science & Information Technology—and becoming the first girl child in my bloodline to reach this milestone.",
+    preview: "I shared the journey from India to earning my Master of Science in Computer Science—and becoming the first girl child in my bloodline to reach this milestone.",
     thumbnail: "images/graduation.jpeg",
     theme: "graduation",
     featured: true
@@ -19,133 +19,113 @@ const linkedinPosts = [
     theme: "vision"
   },
   {
-    url: "https://www.linkedin.com/feed/update/urn:li:activity:7450734175370010624/",
-    title: "Automated construction RFIs with Microsoft Power Platform",
-    date: "Spring 2026",
-    category: "Power Platform · Workflow Automation",
-    preview: "A complete RFI workflow with digital submissions, approvals, comments, real-time status tracking, advanced filters, Dataverse, and an auditable history dashboard.",
-    thumbnail: "images/RFI.png",
+    url: "https://www.linkedin.com/in/shahista-tamkeen/recent-activity/all/",
+    title: "Designing a Digital Twin Multi-Agent AI Platform",
+    date: "Project highlight",
+    category: "Agentic AI · Enterprise RAG",
+    preview: "A LangGraph and LangChain platform combining Azure OpenAI, FastAPI, PostgreSQL, React, Docker, persistent memory, and coordinated agent workflows.",
+    thumbnail: "images/digital-twin.png",
     theme: "automation"
   },
   {
-    url: "https://www.linkedin.com/feed/update/urn:li:activity:7448539918576029696/",
-    title: "Deployed a Patient Readmission Risk Analysis Dashboard",
-    date: "Spring 2026",
-    category: "Machine Learning · Healthcare AI",
-    preview: "An end-to-end ML workflow covering data cleaning, feature engineering, Logistic Regression, evaluation metrics, risk prediction, and a deployed Streamlit analytics experience.",
-    thumbnail: "images/patient.png",
+    url: "https://www.linkedin.com/in/shahista-tamkeen/recent-activity/all/",
+    title: "Published AI for Brain Age Prediction Using Deep Learning",
+    date: "Research highlight",
+    category: "Medical AI · Deep Learning",
+    preview: "A published CNN research workflow for biological brain-age estimation from MRI data, covering preprocessing, augmentation, feature learning, training, and evaluation.",
+    thumbnail: "images/brain-age.jpg",
     theme: "healthcare"
   },
   {
-    url: "https://www.linkedin.com/feed/update/urn:li:activity:7449887531082592258/",
-    title: "Learning, networking, and career insights at LinkedIn Chicago",
-    date: "Spring 2026",
-    category: "Professional Growth · ALPFA",
-    preview: "A memorable office visit with lessons on continuous learning, authentic networking, hiring, and career growth from LinkedIn professionals and the ALPFA community.",
-    thumbnail: "images/linkedin-office.jpg",
-    theme: "linkedin"
-  },
-  {
-    url: "https://www.linkedin.com/feed/update/urn:li:activity:7436818114949885953/",
-    title: "Inside Google Chicago: culture, collaboration, and career journeys",
-    date: "March 2026",
-    category: "Industry Learning · Google",
-    preview: "I reflected on Google’s collaborative environment and the career advice shared by professionals during an Elmhurst University Business Club office tour.",
-    thumbnail: "images/7.jpeg",
+    url: "https://www.linkedin.com/in/shahista-tamkeen/recent-activity/all/",
+    title: "Turning financial data into customer risk and loan insight",
+    date: "Project highlight",
+    category: "Financial ML · Decision Intelligence",
+    preview: "An interpretable customer-risk and loan-prediction workflow using Python, Scikit-learn, SQL, Streamlit, and Power BI for structured lending decisions.",
+    thumbnail: "images/Banking.png",
     theme: "google"
-  },
-  {
-    url: "https://www.linkedin.com/feed/update/urn:li:activity:7436143603338498048/",
-    title: "Turning career-fair conversations into meaningful opportunities",
-    date: "March 2026",
-    category: "Networking · Career Growth",
-    preview: "Conversations with recruiters across finance, technology, logistics, and professional services reinforced the value of sharing real projects and research work.",
-    thumbnail: "images/1.jpeg",
-    theme: "career"
   }
 ];
 
 const skillCapabilities = {
   ai: {
     number: "01 / 06",
-    kicker: "Predictive intelligence",
-    icon: "fa-brain",
-    title: "AI & Machine Learning",
-    description: "Building explainable predictive systems across healthcare, financial risk, computer vision, and deep learning.",
-    skills: ["Scikit-learn", "XGBoost", "LightGBM", "CatBoost", "TensorFlow", "PyTorch", "PyTorch Geometric", "GNNs", "CNNs", "RNNs", "LSTMs", "Transformers", "SHAP", "LIME"],
+    kicker: "Engineering foundations",
+    icon: "fa-code",
+    title: "Programming & Frameworks",
+    description: "Engineering high-throughput AI services, streaming systems, and model APIs with performance-conscious application foundations.",
+    skills: ["Python", "SQL", "Java", "C++", "PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "LightGBM", "FastAPI", "gRPC"],
     projects: [
-      { label: "Patient Readmission", url: "https://github.com/shahistatamkeen1/patient-readmission-dashboard" },
-      { label: "Banking Risk", url: "https://github.com/shahistatamkeen1/Banking-Customer-Risk-Loan-Analysis" },
-      { label: "Brain Age Research", url: "https://github.com/shahistatamkeen1/AI_for_Brain_Age" }
+      { label: "Digital Twin Platform", url: "https://github.com/shahistatamkeen1/my_digital_twin" },
+      { label: "3D Point Cloud QA", url: "https://github.com/shahistatamkeen1/3D_Point_Cloud_QA_System" }
     ],
-    signal: "Model development, evaluation, and explainability"
+    signal: "Reliable software foundations for production AI"
   },
   genai: {
     number: "02 / 06",
-    kicker: "Agentic intelligence",
+    kicker: "Autonomous intelligence",
     icon: "fa-wand-magic-sparkles",
-    title: "Generative AI & LLMs",
-    description: "Designing production-focused RAG, agentic AI, semantic search, function-calling, and persistent-memory systems.",
-    skills: ["RAG", "LangChain", "LangGraph", "Azure OpenAI", "OpenAI API", "AI Agents", "Prompt Engineering", "Function Calling", "Semantic Search", "Pinecone", "Llama", "Mistral"],
+    title: "Agentic AI & LLM Systems",
+    description: "Architecting autonomous multi-agent workflows, governed reasoning, enterprise evaluation, and scalable LLM inference.",
+    skills: ["LangGraph", "AutoGen", "CrewAI", "LangChain", "LlamaIndex", "AWS Bedrock", "Vertex AI", "vLLM", "PEFT/LoRA", "DeepEval", "NeMo Guardrails"],
     projects: [
       { label: "Digital Twin AI", url: "https://github.com/shahistatamkeen1/my_digital_twin" },
-      { label: "Cloud Monitoring AI", url: "https://github.com/shahistatamkeen1/AI_powered_cloud_monitoring_and_security_platform" }
+      { label: "Enterprise agent systems", url: "#experience" }
     ],
-    signal: "From architecture to deployed workflows"
+    signal: "Autonomous reasoning with governed execution"
   },
   backend: {
     number: "03 / 06",
-    kicker: "Reliable application core",
-    icon: "fa-code",
-    title: "Backend Engineering",
-    description: "Engineering secure APIs, services, integrations, and event-driven systems that support AI-powered products.",
-    skills: ["Python", "Java", "SQL", "Bash", "FastAPI", "Flask", "REST APIs", "Microservices", "Apache Kafka", "Data Structures", "Algorithms", "Unit Testing", "Integration Testing"],
+    kicker: "Grounded retrieval",
+    icon: "fa-magnifying-glass-chart",
+    title: "Vector Search & RAG",
+    description: "Building hybrid and graph-based retrieval systems that improve grounding, precision, and traceability across enterprise knowledge.",
+    skills: ["ChromaDB", "Pinecone", "OpenSearch", "pgvector", "BGE Embeddings", "Cohere Rerank", "BM25", "Hybrid Search", "Neo4j GraphRAG", "GCP Vector Search"],
     projects: [
-      { label: "Digital Twin APIs", url: "https://github.com/shahistatamkeen1/my_digital_twin" },
-      { label: "Cloud Monitor", url: "https://github.com/shahistatamkeen1/AI_powered_cloud_monitoring_and_security_platform" },
-      { label: "Job Tracker", url: "https://github.com/shahistatamkeen1/Job_Tracker" }
+      { label: "Digital Twin RAG", url: "https://github.com/shahistatamkeen1/my_digital_twin" },
+      { label: "Hybrid & GraphRAG at work", url: "#experience" }
     ],
-    signal: "Secure services, integrations, and testing"
+    signal: "Precision-focused retrieval for enterprise reasoning"
   },
   cloud: {
     number: "04 / 06",
-    kicker: "Operational intelligence",
-    icon: "fa-cloud",
-    title: "Cloud & MLOps",
-    description: "Deploying and operating intelligent systems with reproducible pipelines, observability, containerization, and model serving.",
-    skills: ["Microsoft Azure", "AWS", "MLflow", "Docker", "Kubernetes", "GitHub Actions", "CI/CD Pipelines", "Model Monitoring", "FastAPI Serving"],
+    kicker: "Predictive intelligence",
+    icon: "fa-brain",
+    title: "ML & Data Science",
+    description: "Developing interpretable models for time-series forecasting, document intelligence, financial risk, and medical computer vision.",
+    skills: ["Statistical Optimization", "Temporal Fusion Transformer", "LayoutLMv3", "Qwen2-VL", "OpenCV", "SHAP", "SMOTE-NC", "Optuna", "CNNs", "Medical Imaging"],
     projects: [
-      { label: "AI Cloud Monitoring", url: "https://github.com/shahistatamkeen1/AI_powered_cloud_monitoring_and_security_platform" },
-      { label: "3D QA Deployment", url: "https://3-d-point-cloud-qa-system.vercel.app/" }
+      { label: "Brain Age Research", url: "https://github.com/shahistatamkeen1/AI_for_Brain_Age" },
+      { label: "Customer Risk", url: "https://github.com/shahistatamkeen1/Banking-Customer-Risk-Loan-Analysis" },
+      { label: "3D Quality Assessment", url: "https://github.com/shahistatamkeen1/3D_Point_Cloud_QA_System" }
     ],
-    signal: "Automated delivery and observable AI systems"
+    signal: "Interpretable models tied to measurable outcomes"
   },
   data: {
     number: "05 / 06",
-    kicker: "Decision-ready data",
+    kicker: "High-volume intelligence",
     icon: "fa-database",
-    title: "Data Engineering",
-    description: "Transforming high-volume operational data into reliable pipelines, analytical models, dashboards, and actionable insights.",
-    skills: ["Apache Spark", "Structured Streaming", "ETL Pipelines", "Snowflake", "SQL Server", "PostgreSQL", "Redis", "Pandas", "NumPy", "Power BI", "Tableau"],
+    title: "Data Engineering & ETL",
+    description: "Designing event-driven and distributed data pipelines for transaction, market, document, and forecasting workloads.",
+    skills: ["PySpark", "Polars", "Pandas", "Dask", "Kafka", "Apache Beam", "AWS Glue", "AWS Lambda", "Airflow", "Redis", "Amazon S3"],
     projects: [
       { label: "Banking Analytics", url: "https://banking-customer-risk-loan-analysis-dashboard.streamlit.app/" },
-      { label: "Patient Dashboard", url: "https://patient-readmission-dashboard.streamlit.app/" }
+      { label: "5 TB daily market pipeline", url: "#experience" }
     ],
-    signal: "Pipelines, analytics, and decision support"
+    signal: "Distributed pipelines built for volume and reliability"
   },
   product: {
     number: "06 / 06",
-    kicker: "Human-centered delivery",
-    icon: "fa-laptop-code",
-    title: "Product Development",
-    description: "Turning complex AI capabilities into responsive, accessible, and recruiter-ready product experiences.",
-    skills: ["React", "Next.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "Streamlit", "Responsive Design", "Git", "GitHub", "Jupyter", "Postman", "Agile"],
+    kicker: "Multi-cloud operations",
+    icon: "fa-cloud",
+    title: "Cloud & MLOps",
+    description: "Deploying, scaling, and monitoring reproducible AI workloads across AWS, GCP, and Azure with container orchestration and CI/CD.",
+    skills: ["AWS", "GCP", "Azure", "SageMaker", "BigQuery", "Dataflow", "Azure AKS", "Azure ML", "Docker", "Kubernetes", "MLflow", "Git", "CI/CD"],
     projects: [
-      { label: "Job Tracker", url: "https://github.com/shahistatamkeen1/Job_Tracker" },
-      { label: "3D QA Interface", url: "https://3-d-point-cloud-qa-system.vercel.app/" },
-      { label: "Portfolio", url: "https://shahistatamkeen1.github.io/portfolio/" }
+      { label: "Production systems", url: "#experience" },
+      { label: "3D QA deployment", url: "https://3-d-point-cloud-qa-system.vercel.app/" }
     ],
-    signal: "Responsive interfaces built around real workflows"
+    signal: "Portable, observable AI delivery across three clouds"
   }
 };
 
@@ -611,10 +591,10 @@ function setupPremiumHero() {
 
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const specialties = [
-    "Agentic AI & RAG systems",
-    "Production machine learning",
-    "Cloud-native AI platforms",
-    "Intelligent product experiences"
+    "Autonomous agentic AI systems",
+    "Enterprise hybrid RAG pipelines",
+    "Low-latency production ML",
+    "Multi-cloud AI platforms"
   ];
 
   if (!reducedMotion) {
@@ -920,7 +900,7 @@ function setupContactForm() {
 
     if (!window.emailjs) {
       status.classList.add("error");
-      status.textContent = "The message service is unavailable. Please email me at stamkeen0506@gmail.com.";
+      status.textContent = "The message service is unavailable. Please email me at shahistatamkeen76@gmail.com.";
       submit?.removeAttribute("disabled");
       return;
     }
@@ -932,7 +912,7 @@ function setupContactForm() {
     } catch (error) {
       console.error("EmailJS error:", error);
       status.classList.add("error");
-      status.textContent = "The message could not be sent. Please email me at stamkeen0506@gmail.com.";
+      status.textContent = "The message could not be sent. Please email me at shahistatamkeen76@gmail.com.";
     } finally {
       submit?.removeAttribute("disabled");
     }
