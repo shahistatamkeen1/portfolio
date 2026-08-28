@@ -2529,6 +2529,20 @@ img {
 
 .cert-preview-badge i { color: #0878d1; font-size: 1.45rem; }
 .cert-preview-badge strong { color: #07385f; font-size: 0.78rem; letter-spacing: 0.08em; }
+.cert-credential-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.65rem;
+  color: var(--mint-bright);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cert-credential-link:hover,
+.cert-credential-link:focus-visible { color: var(--amber); }
+.cert-credential-link i { font-size: 0.58rem; }
 .cert-card span { color: var(--amber); font-size: 0.65rem; }
 .cert-card h3 { margin-top: 0.35rem; font-size: 1.25rem; }
 .cert-card p { margin-top: 0.45rem; color: var(--muted); font-size: 0.72rem; }

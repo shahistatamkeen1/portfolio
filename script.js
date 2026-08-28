@@ -734,7 +734,8 @@ function setupCertificateFilters() {
       const filter = button.dataset.filter;
 
       cards.forEach((card) => {
-        const hidden = filter !== "all" && card.dataset.category !== filter;
+        const categories = (card.dataset.category || "").split(/\s+/).filter(Boolean);
+        const hidden = filter !== "all" && !categories.includes(filter);
         card.classList.toggle("hidden", hidden);
       });
     });
