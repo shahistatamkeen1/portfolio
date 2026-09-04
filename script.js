@@ -50,77 +50,77 @@ const linkedinPosts = [
 const skillCapabilities = {
   ai: {
     number: "01 / 06",
-    kicker: "Engineering foundations",
+    kicker: "Languages, APIs & databases",
     icon: "fa-code",
-    title: "Programming & Frameworks",
-    description: "Engineering high-throughput AI services, streaming systems, and model APIs with performance-conscious application foundations.",
-    skills: ["Python", "SQL", "Java", "C++", "PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "LightGBM", "FastAPI", "gRPC"],
+    title: "Languages, APIs & Databases",
+    description: "Languages, API technologies, and databases listed in the résumé.",
+    skills: ["Python", "SQL", "FastAPI", "REST APIs", "PostgreSQL", "Aurora PostgreSQL"],
     projects: [
       { label: "Digital Twin Platform", url: "https://github.com/shahistatamkeen1/my_digital_twin" },
       { label: "3D Point Cloud QA", url: "https://github.com/shahistatamkeen1/3D_Point_Cloud_QA_System" }
     ],
-    signal: "Reliable software foundations for production AI"
+    signal: "Production AI services backed by reliable data systems"
   },
   genai: {
     number: "02 / 06",
-    kicker: "Autonomous intelligence",
+    kicker: "Generative AI & LLMs",
     icon: "fa-wand-magic-sparkles",
     title: "Agentic AI & LLM Systems",
-    description: "Architecting autonomous multi-agent workflows, governed reasoning, enterprise evaluation, and scalable LLM inference.",
-    skills: ["LangGraph", "AutoGen", "CrewAI", "LangChain", "LlamaIndex", "AWS Bedrock", "Vertex AI", "vLLM", "PEFT/LoRA", "DeepEval", "NeMo Guardrails"],
+    description: "Generative AI and LLM technologies listed in the résumé.",
+    skills: ["LangGraph", "LangChain", "AutoGen", "AWS Bedrock", "Azure OpenAI", "GCP Vertex AI", "Hugging Face Transformers", "PEFT/LoRA", "vLLM"],
     projects: [
       { label: "Digital Twin AI", url: "https://github.com/shahistatamkeen1/my_digital_twin" },
       { label: "Enterprise agent systems", url: "#experience" }
     ],
-    signal: "Autonomous reasoning with governed execution"
+    signal: "LLM-powered workflows and scalable model inference"
   },
   backend: {
     number: "03 / 06",
-    kicker: "Grounded retrieval",
+    kicker: "RAG & search",
     icon: "fa-magnifying-glass-chart",
-    title: "Vector Search & RAG",
-    description: "Building hybrid and graph-based retrieval systems that improve grounding, precision, and traceability across enterprise knowledge.",
-    skills: ["ChromaDB", "Pinecone", "OpenSearch", "pgvector", "BGE Embeddings", "Cohere Rerank", "BM25", "Hybrid Search", "Neo4j GraphRAG", "GCP Vector Search"],
+    title: "RAG & Search",
+    description: "Retrieval, vector search, hybrid search, and graph technologies listed in the résumé.",
+    skills: ["RAG", "GraphRAG", "pgvector", "OpenSearch", "ChromaDB", "BM25", "Hybrid Search", "Neo4j"],
     projects: [
       { label: "Digital Twin RAG", url: "https://github.com/shahistatamkeen1/my_digital_twin" },
       { label: "Hybrid & GraphRAG at work", url: "#experience" }
     ],
-    signal: "Precision-focused retrieval for enterprise reasoning"
+    signal: "Grounded retrieval across vector, keyword, and graph search"
   },
   cloud: {
     number: "04 / 06",
-    kicker: "Predictive intelligence",
+    kicker: "Machine learning",
     icon: "fa-brain",
-    title: "ML & Data Science",
-    description: "Developing interpretable models for time-series forecasting, document intelligence, financial risk, and medical computer vision.",
-    skills: ["Statistical Optimization", "Temporal Fusion Transformer", "LayoutLMv3", "Qwen2-VL", "OpenCV", "SHAP", "SMOTE-NC", "Optuna", "CNNs", "Medical Imaging"],
+    title: "Machine Learning",
+    description: "Machine learning frameworks, modeling libraries, optimization, and explainability tools listed in the résumé.",
+    skills: ["PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "LightGBM", "SciPy", "Optuna", "SHAP"],
     projects: [
       { label: "Brain Age Research", url: "https://github.com/shahistatamkeen1/AI_for_Brain_Age" },
       { label: "Customer Risk", url: "https://github.com/shahistatamkeen1/Banking-Customer-Risk-Loan-Analysis" },
       { label: "3D Quality Assessment", url: "https://github.com/shahistatamkeen1/3D_Point_Cloud_QA_System" }
     ],
-    signal: "Interpretable models tied to measurable outcomes"
+    signal: "Optimized and explainable production machine learning"
   },
   data: {
     number: "05 / 06",
-    kicker: "High-volume intelligence",
+    kicker: "Data & streaming",
     icon: "fa-database",
-    title: "Data Engineering & ETL",
-    description: "Designing event-driven and distributed data pipelines for transaction, market, document, and forecasting workloads.",
-    skills: ["PySpark", "Polars", "Pandas", "Dask", "Kafka", "Apache Beam", "AWS Glue", "AWS Lambda", "Airflow", "Redis", "Amazon S3"],
+    title: "Data & Streaming",
+    description: "Distributed processing, data analysis, workflow orchestration, streaming, and caching technologies listed in the résumé.",
+    skills: ["PySpark", "Pandas", "Apache Kafka", "Apache Airflow", "Redis"],
     projects: [
       { label: "Banking Analytics", url: "https://banking-customer-risk-loan-analysis-dashboard.streamlit.app/" },
       { label: "5 TB daily market pipeline", url: "#experience" }
     ],
-    signal: "Distributed pipelines built for volume and reliability"
+    signal: "Scalable data processing and real-time streaming"
   },
   product: {
     number: "06 / 06",
     kicker: "Multi-cloud operations",
     icon: "fa-cloud",
     title: "Cloud & MLOps",
-    description: "Deploying, scaling, and monitoring reproducible AI workloads across AWS, GCP, and Azure with container orchestration and CI/CD.",
-    skills: ["AWS", "GCP", "Azure", "SageMaker", "BigQuery", "Dataflow", "Azure AKS", "Azure ML", "Docker", "Kubernetes", "MLflow", "Git", "CI/CD"],
+    description: "Cloud platforms, managed ML services, data services, containers, experiment tracking, and delivery tools listed in the résumé.",
+    skills: ["AWS", "Azure", "GCP", "SageMaker", "Azure ML", "AWS Glue", "AWS Lambda", "Docker", "Kubernetes", "MLflow", "Git", "CI/CD"],
     projects: [
       { label: "Production systems", url: "#experience" },
       { label: "3D QA deployment", url: "https://3-d-point-cloud-qa-system.vercel.app/" }
